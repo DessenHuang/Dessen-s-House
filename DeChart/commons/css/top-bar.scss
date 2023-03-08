@@ -1,0 +1,32 @@
+.container {
+  padding-top: 88rpx;
+}
+.top-bar {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #cccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 88rpx;
+}
+.top-bar-left {
+  // margin-left: 20rpx;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.top-bar-center {
+  width: 70%;
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+.top-bar-right {
+   // margin-right: 20rpx;
+   width: 15%;
+   display: flex;
+   justify-content: center;
+}

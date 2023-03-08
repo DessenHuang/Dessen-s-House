@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "emoji": "/components/emoji/emoji",
+    "more": "/components/more/more"
+  },
+  "component": true
+}

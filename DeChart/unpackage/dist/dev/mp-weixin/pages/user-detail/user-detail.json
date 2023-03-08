@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "modify": "/components/modify/modify",
+    "image-cropper": "/components/ling-imgcropper/ling-imgcropper"
+  }
+}

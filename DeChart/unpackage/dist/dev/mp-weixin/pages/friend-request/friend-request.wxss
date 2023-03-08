@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container {
+  padding-top: 88rpx;
+}
+.top-bar {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #cccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 88rpx;
+}
+.top-bar-left {
+  /* margin-left: 20rpx;
+ */
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.top-bar-center {
+  width: 70%;
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+.top-bar-right {
+   /* margin-right: 20rpx;
+ */
+   width: 15%;
+   display: flex;
+   justify-content: center;
+}
+.top-bar {
+  background-color: #fff;
+}
+.top-bar .top-bar-left .back {
+  width: 48rpx;
+  height: 48rpx;
+}
+.emprtyTip {
+  text-align: center;
+  font-size: 38rpx;
+  color: #cfcfcf;
+  padding-top: 100rpx;
+}
+.request-list {
+  padding: 20rpx 40rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.request-list .item {
+  display: flex;
+  width: 100%;
+  height: 360rpx;
+  border-radius: 36rpx;
+  padding: 20rpx;
+  margin: 32rpx 0;
+  box-sizing: border-box;
+  background-color: #FFE431;
+  box-shadow: 0px 18px 20px 0px rgba(39, 40, 50, 0.1);
+}
+.request-list .item-left {
+  width: 18%;
+}
+.request-list .item-left .icon {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+}
+.request-list .item-right {
+  width: 82%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.request-list .item-right-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 48rpx;
+}
+.request-list .item-right-top .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
+  font-size: 42rpx;
+  font-weight: 400;
+  color: #fff;
+}
+.request-list .item-right-top .option image {
+  width: 56rpx;
+  height: 56rpx;
+}
+.request-list .item-right-top .option .refuse {
+  padding: 0 20rpx;
+}
+.request-list .item-right-bottom {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.request-list .item-right-bottom .msg {
+  width: 100%;
+  height: 100%;
+  padding: 20rpx;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #009289;
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  font-weight: 400;
+}
+

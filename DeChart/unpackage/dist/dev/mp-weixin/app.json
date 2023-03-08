@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/search/search",
+    "pages/user-home/user-home",
+    "pages/user-detail/user-detail",
+    "pages/friend-request/friend-request",
+    "pages/chart-room/chart-room",
+    "pages/build-group/build-group",
+    "pages/group-home/group-home",
+    "pages/group-apply/group-apply"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

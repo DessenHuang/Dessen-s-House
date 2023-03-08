@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container {
+  padding-top: 88rpx;
+}
+.top-bar {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #cccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 88rpx;
+}
+.top-bar-left {
+  /* margin-left: 20rpx;
+ */
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.top-bar-center {
+  width: 70%;
+  font-size: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+.top-bar-right {
+   /* margin-right: 20rpx;
+ */
+   width: 15%;
+   display: flex;
+   justify-content: center;
+}
+.top-bar {
+  background-color: #fff;
+}
+.top-bar .top-bar-left .back {
+  width: 48rpx;
+  height: 48rpx;
+}
+.head {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 46rpx;
+  background-color: #fff;
+}
+.head .g-icon {
+  width: 196rpx;
+  height: 196rpx;
+  box-shadow: 0px 18px 20px 0px rgba(39, 40, 50, 0.1);
+  border-radius: 40rpx;
+  margin-bottom: 40rpx;
+}
+.head .group-name {
+  width: 626rpx;
+  height: 32rpx;
+  background: #F3F4F6;
+  border-radius: 46rpx;
+  padding: 28rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #272832;
+  font-weight: 400;
+}
+.head .title {
+  width: 90%;
+  text-align: left;
+  font-size: 44rpx;
+  color: #272832;
+  font-weight: 600;
+  margin-top: 40rpx;
+}
+.users {
+  padding: 0 28rpx;
+  padding-top: 490rpx;
+  padding-bottom: 170rpx;
+  box-sizing: border-box;
+}
+.users-list-item {
+  padding: 24rpx 0;
+  display: flex;
+  align-items: center;
+}
+.users-list-item .tag image {
+  width: 54rpx;
+  height: 54rpx;
+}
+.users-list-item .user-info {
+  width: 100%;
+  margin-left: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.users-list-item .user-info .icon {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 20rpx;
+}
+.users-list-item .user-info .name {
+  width: 60%;
+  padding-left: 28rpx;
+  font-size: 36rpx;
+  color: #272832;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 168rpx;
+  display: flex;
+  justify-content: center;
+  background: #FAFAFA;
+  box-shadow: inset 0px 0.5px 0px 0px rgba(0, 0, 0, 0.1);
+  padding-top: 20rpx;
+  box-sizing: border-box;
+}
+.bottom .button {
+  width: 686rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background: #ccc;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  color: #FAFAFA;
+  font-weight: 400;
+}
+.bottom .btn-selected {
+  background: #FFE431;
+  color: #272832;
+}
+
